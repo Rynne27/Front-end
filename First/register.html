@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Register</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <!-- div allows us to divide the page into different sections if there are multiple items in the page -->
+    <div>
+    <form method="GET">
+        First Name: <input type="text" name="firstname"><br>
+        Last Name: <input type="text" name="lastname"> <br>
+        Email: <input type="email" required name="email"><br>
+        Password: <input type="password" min="10" name="password"><br>
+        Birthday: <input type="date" name="birthday"><br>
+        Gender:<br>
+        <input type="radio" name="gender" value="female">Female<br>
+        <input type="radio" name="gender" value="male">Male<br>
+        <input type="radio" name="gender" value="other">Other<br>
+        Pets: <br>
+        <input type="checkbox" name="cats"> Cats <br>
+        <input type="checkbox" name="dogs"> Dogs <br>
+        Cars: <br>
+        <select name="cars">
+            <option value="Volvo"> Volvo</option>
+            <option value="Audi" > Audi </option>
+            <option value="Mazda"> Mazda</option>
+            <option value="Honda"> Honda</option>
+        </select> <br>
+        <input type="submit" value="Register">
+        <input type="reset">
+    </form>
+    </div>
+</body>
+</html>
+
+<!-- Query Strings that are in the url of submitted form
+   Query Strings: sends information to the backend
+firstname=Mazikeen
+&lastname=Smith
+&email=fake%40gmail.com
+&password=Maze
+&birthday=2019-10-16
+&gender=on
+&cats=on
+&cars=Audi
+-->

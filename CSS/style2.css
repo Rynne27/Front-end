@@ -1,0 +1,33 @@
+h2 {
+    color: blue;
+}
+
+.boxmodel {
+    border: 5px solid red;
+    display: inline-block;
+    /* Box Model 
+    padding: 20px; (general)
+    specified (top, right, bottom, left) */ 
+    padding: 5px 20px 5px 20px;
+    /* margin: space between the borders
+    general: margin: 20px;
+    Specified(t,r,b,l) 
+    margin: 0px 20px 0px 20px;
+    Can be shortened even more
+    (top/bottom, left/right)*/
+    margin: 0px 20px;
+    /*content: 
+    width: 33px;
+    height: 55px;
+    */
+}
+
+p {
+    font-size: 20px;
+}
+
+span {
+    /* we want the font size to be 5 times the containing element(20px) above*/
+    font-size: 5em;
+    /* font size: 5rem: 5 times the root element which is the html root element*/
+}

@@ -1,0 +1,50 @@
+/* 
+Selector {
+    Property: value
+ }
+
+ go to csstricks.com
+ websites for picking color: paletton.com
+  */
+body {
+    background-image: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/BNnQHWfYgiz76sa1n/videoblocks-abstract-pastel-background_rur6x0n-zz_thumbnail-full01.pngs);
+    background-size: cover;
+}
+h2 {
+    color:#AA4139;
+    text-align: center;
+    border: 5px solid rgb(137, 93, 240);
+    cursor: pointer;
+}
+
+p {
+   /* text-decoration: underline;
+    text-transform: uppercase;*/
+    color: palevioletred;
+    line-height: 50px;
+    font-style: italic;
+    /*font-weight: bold;*/
+    font-size: 150%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+img {
+    float: right;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+    display: inline-flex;
+}
+
+.webtext {
+    border: 5px dashed aquamarine;
+}
+
+.active {
+    color: cyan;
+}
